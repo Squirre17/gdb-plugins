@@ -1,0 +1,7 @@
+b 56
+add-symbol-file ./test/structs.sym
+so ./deref.py
+r
+p head
+dll 0x4052a0 mylist next 10
+

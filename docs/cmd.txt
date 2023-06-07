@@ -1,0 +1,2 @@
+objcopy --only-keep-debug structs.so structs.sym
+add-symbol-file 
